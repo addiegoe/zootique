@@ -1,0 +1,30 @@
+<div id ="top_bar">
+	<h3>Reservation Dashboard</h3>
+</div>
+    <p>
+    <div>
+        View:
+        <div>
+          <input class="form-check-input" type="radio" name="all-reservations" id="all-reservations" value="all-reservations">
+          <label class="form-check-label" for="all-reservations">All</label>
+        </div>
+        <div>
+          <input class="form-check-input" type="radio" name="open-reservations" id="open-reservations" value="open-reservations">
+          <label class="form-check-label" for="open-reservations">Open Reservations</label>
+        </div>
+        <div>
+          <input class="form-check-input" type="radio" name="closed-reservations" id="closed-reservations" value="closed-reservations">
+          <label class="form-check-label" for="closed-reservations">Closed Reservations</label>
+        </div>
+    </div>
+        <p>
+    <div id="create-container">
+        <button id="create-reservation" class="button">Create Reservation</button>
+        <button id="create-rental-type" class="button">Create Rental Type</button>
+    </div>
+        
+    <div>
+        <table id="table-body" class="table">
+        </table>
+    </div>
+    <script src="scripts/reservation.js"></script>
